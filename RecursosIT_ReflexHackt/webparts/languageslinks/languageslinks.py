@@ -14,7 +14,7 @@ def languages():
 
             linkwebs("/java_logo.png", "Java", "#F5F5F5", "#0F0F0F", "/javaweb"),
 
-            linkwebs("/TypeScript_TS.png", "TypeScript", "#017acc", "#F7F7F7", "/tsweb"),
+            linkwebs("/Typescript_TS.png", "TypeScript", "#017acc", "#F7F7F7", "/tsweb"),
 
             linkwebs("/kotlin_logo.png", "Kotlin", "linear-gradient(45deg, #844dfc, #e14361)", "#F7F7F7", "/kotlinweb"),
 

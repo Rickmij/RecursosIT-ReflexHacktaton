@@ -14,7 +14,7 @@ from RecursosIT_ReflexHackt.pages.swiftweb import swift
 from RecursosIT_ReflexHackt.pages.goweb import go
 from RecursosIT_ReflexHackt.pages.rustweb import rust
 from RecursosIT_ReflexHackt.pages.phpweb import php
-from RecursosIT_ReflexHackt.estilos.stilos import ESTILO
+import RecursosIT_ReflexHackt.estilos.stilos as stilo
 
 
 class State(rx.State):
@@ -22,7 +22,8 @@ class State(rx.State):
 
 
 app = rx.App(
-    style= ESTILO
+    style= stilo.ESTILO,
+    stylesheets= stilo.FONTS
 )
 app.add_page(index)
 app.add_page(python)

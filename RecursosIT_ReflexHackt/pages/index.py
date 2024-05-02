@@ -36,7 +36,7 @@ def index() -> rx.Component:
                 padding_bottom = "4em",
                 margin_top = "1em",
                 margin_bottom = "1.5em",
-                max_width= "50em",
+                max_width= "60em",
             ),
         ),
         footer()

@@ -21,9 +21,11 @@ def linkwebs(image, lang, bg, color, url):
                 spacing= "3",
             ),
             background = bg,
-            padding_y = "1em",
+            padding_y = "1.5em",
             padding_x = "2em",
-            border_radius = "16px"
+            border_radius = "16px",
+            width = "9.5em",
+            height = "9.5em"
         ),
         href = url
     )

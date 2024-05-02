@@ -27,8 +27,9 @@ def languages():
             linkwebs("/php.png", "PHP", "#6c7eb7", "#F7F7F7", "/phpweb"),
 
             flex_wrap = "wrap",
+            width = "100%",
             spacing = "3",
-            align = "baseline",
+            align = "center",
             justify = "center"
         ),
         margin_top ="0.5em"

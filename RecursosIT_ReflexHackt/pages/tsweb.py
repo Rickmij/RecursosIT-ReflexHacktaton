@@ -36,6 +36,7 @@ def typescript():
                 
             max_width = "50em",
             padding = "1.5em",
+            padding_left = "2em",
             padding_bottom = "3em",
             margin_bottom = "2em",
             margin_right = "2em"
